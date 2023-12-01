@@ -4,4 +4,4 @@ JOIN students s ON m.student_id = s.id
 WHERE subject_id = :subject_id
 GROUP BY m.student_id, s.student
 ORDER BY max_avg_mark DESC 
-LIMIT 1
+LIMIT 1;

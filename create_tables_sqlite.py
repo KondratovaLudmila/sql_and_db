@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS marks (
     FOREIGN KEY (subject_id) REFERENCES subjects (id)
         ON DELETE SET NULL
         ON UPDATE CASCADE
-)
+);
 '''
 sql_commands = (
     sql_create_groups,
